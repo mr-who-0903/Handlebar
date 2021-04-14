@@ -1,0 +1,297 @@
+/*.container-fluid{
+    padding: 0;
+}*/
+.fries-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.myul{
+    margin-left: 5%;   /*30px*/  
+}
+.myul li{
+    margin-left: 15px;   /*15px*/
+    margin-right: 15px;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus{
+    background-color: transparent !important;
+    color: red !important;
+    border-color: red;
+    
+}
+.btn-primary{
+    margin-right: 2%;    /*40px*/
+    transition: 0.8s;
+    background-color: transparent !important;
+    color: black !important;
+    border-radius: 200px !important;
+    border: 1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+@media(max-width:419px){
+.btn-primary{
+    margin-top: 20px;
+    }
+}
+.ttt{
+    height: 500px;
+}
+.brandname{
+    font-weight: bold;
+}
+#dialogue{
+    font-size: 23px;
+    line-height: 1.5;
+   /* margin-left: 79px;
+    margin-top: 100px;*/
+}
+.describe{
+    font-size: 10px;
+}
+.description-container{
+    margin-left: 18%;
+    /*float: right;*/
+    margin-top: 30%;
+    width: 80%;
+}
+#image{
+    border: 1px solid black;
+    width: 60%;     /*320px*/
+    height: 60%;    /*320px*/
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.pricing-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex: 25%;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+    
+}
+.table{
+    background: #fff;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+.table h2{
+    text-transform: uppercase;
+}
+.table ul{
+    margin-bottom: 10px;
+    padding: 0;
+    
+}
+
+.table ul li{
+    padding: 5px 0;
+    list-style: none;
+}
+.price{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.price span{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.table a{
+    text-decoration: none;
+    color: #271010;
+    border: 2px solid black;
+    display: block;
+    padding: 10px 0;
+    margin : 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s linear;
+}
+.table a:hover{
+    background: #170f33;
+    color: #fff;
+}
+@media screen and (max-width: 980px){
+    .col{
+        flex: 50%;
+    }
+}
+@media screen and (max-width: 700px){
+    .col{
+        flex: 100%;
+    }
+}
+.pricing-table{
+    margin-top: 14%;
+}
+.pop{
+    background:#170f33;
+    color: #fff;
+    padding: 10px 40px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 11px;
+    right: -34px;
+}
+
+@media(max-width:575px){
+    .ttt{
+        height: 350px;
+    }
+    #image{
+        margin-top: 10%;
+    }
+    .description-container{
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 10%; 
+    }
+    .lastTile{
+        text-align: center;
+        
+    }
+    .lastTile ul li{
+        list-style: none;
+    }
+    hr{
+    margin-top: 1.5em;
+    background: #fff;
+    margin-bottom: 0;
+    width: 65%;    
+}
+    
+}
+.flexbox{
+    padding-top: 5%;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.searchMore{
+    margin-top: 2%;
+    background: #3c6ae6;
+}
+.searchMore:hover{
+    color: #3c6ae6;
+    background: #fff;
+}
+.feedbackBox{
+    text-align: center;
+    margin-top: 14%;
+}
+.feedbackBox p{
+    margin-bottom: 0;
+}
+.detailsRow{
+    width: 55%;
+    margin: auto;
+}
+.inputSpace{
+    width: 100%;
+    background-color: #d6d1d1;
+    border: none;
+}
+.detailsCol{
+    padding:8px;
+}
+
+.feedbackRow{
+    width: 56.5%;
+    margin: auto;
+    padding: 8px 0 8px 0; 
+}
+.feedbackSpace{
+    background-color: #d6d1d1;
+    border: none;
+    width: 100%;
+}
+.submitfeed{
+    background-color: #3c6ae6;
+    
+}
+.submitfeed:hover{
+    color: #3c6ae6;
+    background: #fff;
+}
+.lastbox{
+    margin-top: 9%;
+}
+.lastTile{
+    line-height: 1.7em;
+    padding: 30px 30px 20px 30px;
+    background: #332833;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+@media(max-width: 767px){
+    .B, .C{
+        border-radius: 0;
+    }
+}
+#orderDetail{
+    margin-top: 3px;
+    font-size: 15px;
+    color:green;
+}
+#copy{
+    background: #332833;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
